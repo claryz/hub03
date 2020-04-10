@@ -1,0 +1,376 @@
+.box{
+    position: relative;
+    background-color: rgb(247, 247, 247)
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+/* 顶部西安鸿君堂大药房有限公司 */
+.header{
+    width: 100%;
+    height: 45px;
+    background-color: #06c1ae;
+    position: fixed;
+    top: 0px;
+    z-index: 111;
+}
+.headerbox{
+    position: relative; 
+}
+.headerbox p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 45px;
+    
+}
+.icon3{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+#slide{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    z-index: 222;
+    display: none;
+    padding-top: 45px;
+}
+.slides{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+    position: relative;
+    padding-left: 20px;
+}
+.slideimg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.slides img{
+    vertical-align: middle;
+}
+.slides span{
+    line-height: 60px;
+    font-size: 14px;
+    color: #424141;
+}
+/* 轮播图 */
+.loop{
+    width: 100%;
+    padding-top: 45px;
+}
+.swiper-container{
+    width: 100%;
+    height: 150px;
+}
+.swiper-slide{
+    width: 100%;
+    height: 170px;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+/* nav部分 */
+.nav{
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+.nav ul li{
+    width: 25%;
+    float: left;
+    /* margin: 8px 0; */
+    text-align: center;
+}
+.nav ul .li2{
+    margin-top: 50px;
+}
+.nav ul li p{
+    font-size: 11px;
+    color: #515151;
+    text-align: center;
+}
+/* 搜索框 */
+.search{
+    width: 100%;
+    height: 55px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    background-color: white;
+    position: relative;
+}
+.big{
+    position: absolute;
+    right: 27px;
+    top: 17px;
+}
+.search form{
+    width: 100%;
+    /* height: 40px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-top: 6px; */
+    /* background-color: #cccccc; */
+}
+.search form input{
+    width: 100%;
+    height: 34px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #cec8c8;
+}
+/* 产品展示 */
+.products{
+    width: 100%;
+    /* height: 350px; */
+    /* background-color: white; */
+}
+.productscon{
+    width: 100%;
+    background-color: white; 
+    margin-top: 3px;
+}
+
+.productscon ul li{
+    width: 50%;
+    float: left;
+    /* margin: 8px 0; */
+    text-align: center;
+}
+.productscon ul li p{
+    font-size: 14px;
+    color: #515151;
+    text-align: center;
+}
+.productscon ul li img{
+    width: 150px;
+    height: 150px;
+}
+.proli2{
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+ /*上一页下一页 */
+.pagenum{
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    line-height: 50px;
+    color: #9b9696;
+}
+.page{
+    width: 100%;
+    background-color:white;
+    height: 50px;
+    position: relative;
+}
+.pageup,.pagedown{
+    width: 70px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid rgb(6, 193, 174);
+    text-align: center;
+    line-height: 22px;
+    color: rgb(6, 193, 174);
+}
+.pageup{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.pagedown{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+/* 养心定悸膏 */
+.heart{
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    position: relative;
+    
+}
+.hearttext{
+    width: 180px;
+    height: 160px;
+    float: right;
+    /* background-color: burlywood; */
+    position: absolute;
+    right: 0px;
+    top: 21px;
+}
+.hearttext span{
+    font-size: 13px;
+    color: rgb(45, 107, 45);
+}
+.hearttext p{
+    font-size: 12px;
+    color: #636060;
+    margin-top: 13px;
+}
+/* 新闻部分 */
+.news{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.new{
+    background-color: white;
+    margin-top: 2px;
+}
+.newstitle{
+    width: 76px;
+    height: 47px;
+    text-align: center;
+    border-bottom: 2px solid #06c1ae;
+    float: left;
+    
+}
+.newstitle p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 47px;
+    color: #06c1ae;
+    font-size: 15px;
+}
+.point{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(68, 65, 65);
+    border-radius: 50%;
+    float: left;
+    margin-top: 18px;
+    margin-left: 16px;  
+}
+.jing{
+    float: left;
+    color: rgb(207, 9, 9);
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.newscon12{
+    width: 238px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; */
+}
+.newscon12 p{
+    overflow: hidden;
+    font-size: 14px;
+    color: rgb(87, 84, 84);
+    text-overflow: ellipsis;
+    line-clamp: 2;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical; */
+}
+.newscontain3{
+    width: 250px;
+    height: 44px;
+    color: rgb(87, 84, 84);
+    font-size: 14px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 6px;
+    /* line-height: 60px; */
+
+}
+.newscontain{
+    height: 29px;
+    /* background-color: blueviolet; */
+    float: left;
+    line-height: 29px;
+    font-size: 14px;
+    color: rgb(87, 84, 84);
+    margin-left: 10px;
+}
+.newsright{
+    float: right;
+    margin-top: 12px;
+    margin-right: 8px;
+}
+/* 底部横条和版权所有 */
+.footer{
+    position: relative;
+    margin-bottom: 50px;
+}
+.footertop{
+    width: 100%;
+    height: 28px;
+    background-color: #06c1ae;
+}
+.toptext{
+    /* width: 50px; */
+    margin-right: 22px;
+    height: 28px;
+    line-height: 28px;
+    color: white;
+    float: right;
+}
+.topimg{
+    position: absolute;
+    top: 7px;
+    right: 3px;
+}
+.footertext{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    padding-top: 20px;
+}
+.footer .footertext p{
+    font-size: 13px;
+    color: #a19f9f;
+    text-align: center;
+}
+/* 最底部固定 */
+.bottom{
+    width: 100%;
+    height: 50px;
+    background-color: #06c1ae;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.bot{
+    width: 25%;
+    height: 50px;
+    /* background-color: violet; */
+    float: left;
+}
+.bot p{
+    font-size: 11px;
+}
+.bot .botimg{
+    margin-top: 5px;
+}
+.boxr{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    bottom: 66px;
+    right:10px;
+    display: none;
+}
